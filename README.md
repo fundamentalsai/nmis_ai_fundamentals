@@ -6,9 +6,7 @@ Repository designated for NMIS AI Fundamentals course.
 
 
 
-<p align="left">
-  <img src="URL_OF_YOUR_IMAGE_HERE" width="100" alt="Fundamental of AI for Manufacturing">
-</p>
+
 
 # Fundamentals of AI for Manufacturing
 
