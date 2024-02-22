@@ -2,6 +2,39 @@
 Repository designated for NMIS AI Fundamentals course.
 # Fundamentals of AI for Manufacturing
 
+
+
+
+
+<p align="left">
+  <img src="URL_OF_YOUR_IMAGE_HERE" width="100" alt="Data Science for Manufacturing">
+</p>
+
+# Fundamentals of AI for Manufacturing
+
+Dive into the transformative power of AI in manufacturing with our course "Fundamentals of AI for Manufacturing". This program demystifies AI, focusing on its foundational principles and practical applications in the industrial sector. Through theoretical insights and hands-on workshops, explore key modelling techniques and their impact on manufacturing processes. Ideal for managers, professionals, and non-coders, the course offers enriched explanations with examples, allowing participants to experiment with AI models. Join us to revolutionise your manufacturing strategies.
+
+## Navigation
+
+- [Overview](#overview)
+- [Course Description](#course-description)
+- [Timetable & Online Support](#timetable--online-support)
+- [Topics & Schedule](#topics--schedule)
+- [Requirements, Fees and Waivers](#requirements-fees-and-waivers)
+- [How to Apply](#how-to-apply)
+- [FAQs](#faqs)
+- [Register Interest](#register-interest)
+- [Apply](#apply)
+
+## Team
+
+For more information, feel free to contact us.
+
+- E-mail us: [your-email@example.com](mailto:your-email@example.com)
+
+
+
+
 ## Course Description
 
 Dive into the transformative power of AI in manufacturing with our course "Fundamentals of AI for Manufacturing". This program demystifies AI, focusing on its foundational principles and practical applications in the industrial sector. Through theoretical insights and hands-on workshops, explore key modelling techniques and their impact on manufacturing processes. Ideal for managers, professionals, and non-coders, the course offers enriched explanations with examples, allowing participants to experiment with AI models. Join us to revolutionise your manufacturing strategies.
