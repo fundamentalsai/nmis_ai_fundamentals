@@ -1,3 +1,7 @@
+theme: jekyll-theme-minimal.
+
+
+
 !-- Image and Description -->
 <div style="float:left; margin-right:20px;">
     ![Course Logo](link_to_your_logo)
