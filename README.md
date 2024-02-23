@@ -21,25 +21,6 @@ For more information, feel free to contact us.
 - E-mail us: [your-email@example.com](mailto:your-email@example.com)
 
 
-
-
-## Learning Objectives
-
-Upon completing this course, participants will:
-
-1. **Awareness:** Gain a comprehensive understanding of AI's fundamental concepts, principles, and transformative potential in manufacturing.
-2. **Knowledge:** Identify and describe various AI modelling and numerical approaches, their applications, and benefits in industrial contexts.
-3. **Application:** Navigate and utilize pre-prepared AI models on platforms like Google Colab, focusing on important variables, parameter tuning, and model performance effects.
-4. **Technical Insight:** Acquire minimal mathematical explanations of algorithms, parameter tuning, and model optimization within manufacturing environments.
-5. **Practical Implementation:** Apply theoretical knowledge in hands-on workshops, illustrating AI's real-world application in optimizing manufacturing processes and decision-making strategies.
-
-## Benefits of Attending
-
-- **New Knowledge and Skills:** Solid foundation in AI fundamentals and skills in applying AI models to manufacturing problems.
-- **Hands-On Experience:** Interactive workshops on Google Colab for practical AI model manipulation and parameter tuning.
-- **Strategic Insights:** Ability to assess and implement AI-driven strategies for improved efficiency, productivity, and innovation.
-- **Networking Opportunities:** Connect with peers and experts, fostering a community of practice in AI applications in manufacturing.
-
 ## Course Structure
 
 ### Outline
