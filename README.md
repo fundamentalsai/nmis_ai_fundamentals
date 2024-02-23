@@ -1,12 +1,3 @@
-# nmis_ai_fundamentals
-Repository designated for NMIS AI Fundamentals course.
-# Fundamentals of AI for Manufacturing
-
-
-
-
-
-
 
 # Fundamentals of AI for Manufacturing
 
