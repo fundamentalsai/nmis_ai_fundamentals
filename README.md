@@ -6,16 +6,16 @@ Dive into the transformative power of AI in manufacturing with our course "Funda
 ## Navigation
 
 - [Overview](overview.md)
-- [Course Description](#course-description)
-- [Timetable & Online Support](#timetable--online-support)
-- [Topics & Schedule](#topics--schedule)
-- [Requirements, Fees and Waivers](#requirements-fees-and-waivers)
-- [How to Apply](#how-to-apply)
-- [FAQs](#faqs)
-- [Register Interest](#register-interest)
-- [Apply](#apply)
+- [Course Description](course Description.md)
+- [Timetable & Online Support](Timetable & Online Support.md)
+- [Topics & Schedule](Topics & schedule.md)
+- [Requirements, Fees and Waivers](Requirements Fees and waivers.md)
+- [How to Apply](How to apply.md)
+- [FAQs](FAQs.md)
+- [Register Interest](Register Interest.md)
+- [Apply](Apply.md)
 
-## Team
+## Team (Team.md)
 
 For more information, feel free to contact us.
 
