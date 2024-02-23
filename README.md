@@ -5,7 +5,7 @@ Dive into the transformative power of AI in manufacturing with our course "Funda
 
 ## Navigation
 
-- [Overview](#overview)
+- [Overview](overview.md)
 - [Course Description](#course-description)
 - [Timetable & Online Support](#timetable--online-support)
 - [Topics & Schedule](#topics--schedule)
