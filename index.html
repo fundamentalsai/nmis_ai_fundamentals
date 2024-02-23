@@ -10,79 +10,85 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
-        #header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        #header img {
-            width: 150px;
-            height: auto;
-            margin-bottom: 10px;
-        }
-
-        #readme-content {
+        #container {
+            display: flex;
             max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        #readme-content h1 {
-            font-size: 24px;
+        #navigation {
+            flex: 1;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
         }
 
-        #readme-content ul {
+        #navigation h2 {
+            margin-top: 0;
+        }
+
+        #navigation ul {
             list-style: none;
             padding: 0;
         }
 
-        #readme-content ul li {
+        #navigation ul li {
             margin-bottom: 10px;
         }
 
-        #readme-content ul li a {
-            color: #333;
+        #navigation ul li a {
+            color: #fff;
             text-decoration: none;
         }
 
-        #readme-content ul li a:hover {
+        #navigation ul li a:hover {
             color: #007bff;
+        }
+
+        #content {
+            flex: 2;
+            padding: 20px;
+        }
+
+        #content h1 {
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
 
-    <header id="header">
-        <img src="logodat.png" alt="Course Logo">
-        <h1>Fundamentals of AI for Manufacturing</h1>
-    </header>
-
-    <div id="readme-content">
-        <p>Dive into the transformative power of AI in manufacturing with our course "Fundamentals of AI for Manufacturing". This program demystifies AI, focusing on its foundational principles and practical applications in the industrial sector. Through theoretical insights and hands-on workshops, explore key modeling techniques and their impact on manufacturing processes. Ideal for managers, professionals, and non-coders, the course offers enriched explanations with examples, allowing participants to experiment with AI models. Join us to revolutionize your manufacturing strategies.</p>
-
-        <h2>Navigation</h2>
-        <ul>
-            <li><a href="overview.html">Overview</a></li>
-            <li><a href="course_description.html">Course Description</a></li>
-            <li><a href="Timetable-&-online-Support.html">Timetable & Online Support</a></li>
-            <li><a href="Topics-Schedule.html">Topics & Schedule</a></li>
-            <li><a href="Requirements-Fees-Waivers.html">Requirements, Fees and Waivers</a></li>
-            <li><a href="How-to-apply.html">How to Apply</a></li>
-            <li><a href="FAQs.html">FAQs</a></li>
-            <li><a href="Team.html">Team</a></li>
-            <li><a href="Register-Interest.html">Register Interest</a></li>
-            <li><a href="Apply.html">Apply</a></li>
-        </ul>
+    <div id="container">
+        <nav id="navigation">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="course_description.html">Course Description</a></li>
+                <li><a href="Timetable-&-online-Support.html">Timetable & Online Support</a></li>
+                <li><a href="Topics-Schedule.html">Topics & Schedule</a></li>
+                <li><a href="Requirements-Fees-Waivers.html">Requirements, Fees and Waivers</a></li>
+                <li><a href="How-to-apply.html">How to Apply</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="Team.html">Team</a></li>
+                <li><a href="Register-Interest.html">Register Interest</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <header id="header">
+                <img src="logodat.png" alt="Course Logo">
+                <h1>Fundamentals of AI for Manufacturing</h1>
+            </header>
+            <p>Dive into the transformative power of AI in manufacturing with our course "Fundamentals of AI for Manufacturing". This program demystifies AI, focusing on its foundational principles and practical applications in the industrial sector. Through theoretical insights and hands-on workshops, explore key modeling techniques and their impact on manufacturing processes. Ideal for managers, professionals, and non-coders, the course offers enriched explanations with examples, allowing participants to experiment with AI models. Join us to revolutionize your manufacturing strategies.</p>
+        </div>
     </div>
-
-    <!-- Other sections go here -->
 
 </body>
 </html>
