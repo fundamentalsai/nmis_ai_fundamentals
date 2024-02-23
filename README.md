@@ -14,8 +14,7 @@ Dive into the transformative power of AI in manufacturing with our course "Funda
 - [FAQs](FAQs.md)
 - [Register Interest](Register-Interest.md)
 - [Apply](Apply.md)
-
-## Team (Team.md)
+- [Team] (Team.md)
 
 For more information, feel free to contact us.
 
