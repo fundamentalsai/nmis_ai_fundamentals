@@ -23,10 +23,6 @@ For more information, feel free to contact us.
 
 
 
-## Course Description
-
-Dive into the transformative power of AI in manufacturing with our course "Fundamentals of AI for Manufacturing". This program demystifies AI, focusing on its foundational principles and practical applications in the industrial sector. Through theoretical insights and hands-on workshops, explore key modelling techniques and their impact on manufacturing processes. Ideal for managers, professionals, and non-coders, the course offers enriched explanations with examples, allowing participants to experiment with AI models. Join us to revolutionise your manufacturing strategies.
-
 ## Learning Objectives
 
 Upon completing this course, participants will:
