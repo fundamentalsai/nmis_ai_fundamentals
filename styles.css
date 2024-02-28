@@ -12,3 +12,27 @@
 #course-topics li {
     margin-bottom: 10px;
 }
+.course-intro, .learning-outcomes, .why-choose, .course-features, .cta {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #005a87;
+}
+
+.enroll-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enroll-button:hover {
+    background-color: #0056b3;
+}
