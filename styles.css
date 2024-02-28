@@ -1,0 +1,14 @@
+/* styles.css content */
+#course-topics {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#course-topics h2, #course-topics h3 {
+    color: #005a87;
+}
+#course-topics ul, #course-topics ol {
+    padding-left: 20px;
+}
+#course-topics li {
+    margin-bottom: 10px;
+}
