@@ -18,7 +18,9 @@
 }
 
 .main-content {
-    flex: 3; /* Adjust as needed to control width */
+    flex: 0 1 200px; /* Adjusts the sidebar's base width and allows it to grow and shrink */
+    padding-left: 10px; /* Optional: Adds some padding to the left of the main content for spacing */
+
 }
  body {
     font-family: 'Arial', sans-serif;
@@ -36,7 +38,7 @@ header {
 .container {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
 }
 h1, h2, p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
