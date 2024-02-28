@@ -13,14 +13,14 @@
 }
 
 .sidebar {
-    flex: 1; /* Adjust as needed */
-    padding-right: 20px; /* Spacing between sidebar and main content */
+    flex: 0 1 200px; /* Sidebar takes up to 200px width but can shrink if necessary */
+    padding-right: 20px; /* Adjust this value if needed to reduce/increase space */
 }
 
-.main-content {
-    flex: 0 1 200px; /* Adjusts the sidebar's base width and allows it to grow and shrink */
-    padding-left: 10px; /* Optional: Adds some padding to the left of the main content for spacing */
 
+.main-content {
+    flex: 1; /* Takes remaining space */
+    padding-left: 20px; /* Consistent spacing from the sidebar */
 }
  body {
     font-family: 'Arial', sans-serif;
@@ -37,8 +37,8 @@ header {
 }
 .container {
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
+    flex-wrap: nowrap; /* Ensures elements are side by side */
+    padding: 20px;
 }
 h1, h2, p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
