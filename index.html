@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,52 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentals of AI for Manufacturing</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #005a87;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header img {
-            max-width: 100px;
-        }
-        #readme-content {
-            padding: 20px;
-        }
-        h1, h2 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        p {
-            line-height: 1.6;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        ul li a {
-            text-decoration: none;
-            color: #005a87;
-            font-weight: bold;
-        }
-        ul li a:hover {
-            text-decoration: underline;
-        }
-        @media (max-width: 600px) {
-            header h1, header img {
-                font-size: 1.5em;
-                max-width: 80px;
-            }
-        }
+       body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #005a87;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.sidebar {
+    flex: 1;
+    max-width: 200px; /* Adjust based on preference */
+    padding-right: 20px;
+}
+.main-content {
+    flex: 3;
+}
+h1, h2, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li a {
+    text-decoration: none;
+    color: #005a87;
+    font-weight: bold;
+    display: block; /* Makes the entire list item clickable */
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        max-width: 100%;
+        padding-right: 0;
+    }
+}
+ /* CSS styles will be provided below */
     </style>
 </head>
 <body>
@@ -60,52 +67,27 @@
         <h1>Fundamentals of AI for Manufacturing</h1>
     </header>
 
-    <div id="readme-content">
-        <p>Dive into the transformative power of AI in manufacturing with our course "Fundamentals of AI for Manufacturing". This program demystifies AI, focusing on its foundational principles and practical applications in the industrial sector. Through theoretical insights and hands-on workshops, explore key modeling techniques and their impact on manufacturing processes. Ideal for managers, professionals, and non-coders, the course offers enriched explanations with examples, allowing participants to experiment with AI models. Join us to revolutionize your manufacturing strategies.</p>
- <div class="course-intro">
-    <h2>Welcome to Fundamentals of AI for Manufacturing</h2>
-    <p>Explore the cutting-edge intersection of artificial intelligence and manufacturing with our comprehensive course designed to empower industry professionals, managers, and enthusiasts. Discover how AI is revolutionizing the manufacturing landscape, enhancing efficiency, and driving innovation.</p>
-</div>
-    <div class="learning-outcomes">
-    <h2>What You Will Learn</h2>
-    <ul>
-        <li>Core principles of AI and their application in manufacturing.</li>
-        <li>Hands-on experience with AI tools and models for real-world problem-solving.</li>
-        <li>Strategies for integrating AI into manufacturing processes to optimize operations.</li>
-    </ul>
-</div>
-<div class="why-choose">
-    <h2>Why Choose This Course</h2>
-    <p>This course offers an unparalleled opportunity to gain insights from leading AI experts and practitioners in the manufacturing sector. With a blend of theory and practical workshops, you will be equipped to lead AI initiatives in your organization.</p>
-</div>
-<div class="course-features">
-    <h2>Course Features</h2>
-    <ul>
-        <li>8-week comprehensive curriculum with flexible learning hours.</li>
-        <li>Interactive workshops and live sessions with industry experts.</li>
-        <li>Access to a rich repository of resources and AI modeling tools.</li>
-        <li>Certificate of completion to add value to your professional profile.</li>
-    </ul>
-</div>
-        <h2>Navigation</h2>
-        <ul>
-            <li><a href="overview.html">Overview</a></li>
-            <li><a href="Course-Description.html">Course Description</a></li>
-            <li><a href="timetable-&-Online-Support.html">Timetable & Online Support</a></li>
-            <li><a href="Topics-&-Schedule.html">Topics & Schedule</a></li>
-            <li><a href="Requirements-fees-and-Waivers.html">Requirements, Fees, and Waivers</a></li>
-            <li><a href="How-to-apply.html">How to Apply</a></li>
-            <li><a href="FAQs.html">FAQs</a></li>
-            <li><a href="Team.html">Team</a></li>
-            <li><a href="Register-Interest.html">Register Interest</a></li>
-            <li><a href="Apply.html">Apply</a></li>
-        </ul>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="overview.html">Overview</a></li>
+                <!-- Other navigation items -->
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="course-intro">
+                <h2>Welcome to Fundamentals of AI for Manufacturing</h2>
+                <!-- Welcome text -->
+            </div>
+            <div class="learning-outcomes">
+                <h2>What You Will Learn</h2>
+                <!-- Learning outcomes -->
+            </div>
+            <!-- Additional sections -->
+        </div>
     </div>
 
-    <!-- Other sections should be styled similarly, with attention to layout, typography, and responsive design -->
-
 </body>
-   
-
-
 </html>
