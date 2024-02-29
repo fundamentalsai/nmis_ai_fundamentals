@@ -5,27 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentals of AI for Manufacturing</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #005a87;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .sidebar, #course-topics {
+            flex: 1;
+            padding: 20px;
+        }
+        .sidebar {
+            flex-basis: 20%; /* Adjust the width of the sidebar */
+            max-width: 250px; /* Maximum width of the sidebar */
+        }
+        #course-topics {
+            flex-basis: 75%; /* Adjust based on the sidebar width to fill the rest */
+        }
+        h1, h2, p, ul, ol {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul, ol {
+            list-style: none;
+            padding: 0;
+        }
+        ul li a, ol li a {
+            text-decoration: none;
+            color: #005a87;
+            font-weight: bold;
+        }
+        ul li a:hover, ol li a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                flex-basis: auto;
+                max-width: none;
+            }
+            #course-topics {
+                flex-basis: auto;
+            }
+        }
+    </style>
 </head>
 <body>
+    <header id="header">
+        <img src="logo.png" alt="Course Logo" height="100">
+        <h1>Fundamentals of AI for Manufacturing</h1>
+    </header>
 
-<div id="course-topics">
-    <h2>Course Topics</h2>
-    <p>The following topics will be covered in this course:</p>
-    <ul>
-        <li>The basic idea of Artificial Neural Network (ANN)</li>
-        <li>ANN Training – Data Requirements - Overtraining</li>
-        <li>Generic algorithms (GA) and their utilisation in training engine</li>
-        <li>ANN Training – fitting engine</li>
-        <li>Convolution ANN</li>
-        <li>Regression problems</li>
-        <li>Autoencoders</li>
-        <li>ANN for working with time series</li>
-        <li>Recurrent ANN</li>
-        <li>Q-learning (basics)</li>
-    </ul>
-    <h3>Lecture Outlines</h3>
-    <h2>Lecture Outline</h2>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="Course-Description.html">Course Description</a></li>
+                <li><a href="timetable-&-Online-Support.html">Timetable & Online Support</a></li>
+                <li><a href="Topics-&-Schedule.html">Topics & Schedule</a></li>
+                <li><a href="Requirements-fees-and-Waivers.html">Requirements, Fees, and Waivers</a></li>
+                <li><a href="How-to-apply.html">How to Apply</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="Team.html">Team</a></li>
+                <li><a href="Register-Interest.html">Register Interest</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+            </ul>
+        </div>
+
+        <div id="course-topics">
+            <h2>Course Topics</h2>
+            <p>The following topics will be covered in this course:</p>
+            <ul>
+                <li>The basic idea of Artificial Neural Network (ANN)</li>
+                <li>ANN Training – Data Requirements - Overtraining</li>
+                <li>Generic algorithms (GA) and their utilisation in training engine</li>
+                <li>ANN Training – fitting engine</li>
+                <li>Convolution ANN</li>
+                <li>Regression problems</li>
+                <li>Autoencoders</li>
+                <li>ANN for working with time series</li>
+                <li>Recurrent ANN</li>
+                <li>Q-learning (basics)</li>
+            </ul>
+            <!-- Additional content like Lecture Outlines can be added here --> <h2>Lecture Outline</h2>
         <!-- Include the detailed lecture outlines here, following the structured format provided -->
         <ol>
             <li>
@@ -51,5 +128,7 @@
     </ol>
 </div>
 
+        </div>
+    </div>
 </body>
 </html>
