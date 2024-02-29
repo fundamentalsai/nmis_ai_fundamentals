@@ -1,1 +1,105 @@
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals of AI for Manufacturing</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #005a87;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap; /* Adjusted for a side-by-side layout */
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 0 1 200px; /* Sidebar takes up to 200px width but can shrink if necessary */
+            padding-right: 20px; /* Adds padding to the right of the sidebar */
+            margin-right: 20px; /* Adds margin to the right of the sidebar to create space */
+        }
+        .main-content {
+            flex: 1; /* Takes remaining space */
+            padding-left: 40px; /* Consistent spacing from the sidebar */
+        }
+        h1, h2, p, ul {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc; /* Ensures bullets are shown */
+            margin-left: 20px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #005a87;
+            font-weight: bold;
+            display: block; /* Makes the entire list item clickable */
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar, .main-content {
+                flex-basis: auto; /* Allows content to stack vertically on smaller screens */
+                padding-right: 0;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img src="logo.png" alt="Course Logo" height="100">
+        <h1>Fundamentals of AI for Manufacturing</h1>
+    </header>
+
+    <div class="container"> <!-- Flex container for sidebar and main content -->
+        <div class="sidebar"> <!-- Navigation sidebar -->
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="Course-Description.html">Course Description</a></li>
+                <li><a href="timetable-&-Online-Support.html">Timetable & Online Support</a></li>
+                <li><a href="Topics-&-Schedule.html">Topics & Schedule</a></li>
+                <li><a href="Requirements-fees-and-Waivers.html">Requirements, Fees, and Waivers</a></li>
+                <li><a href="How-to-apply.html">How to Apply</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="Team.html">Team</a></li>
+                <li><a href="Register-Interest.html">Register Interest</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content"> <!-- Content beside the navigation -->
+            
+            <h1>Overview</h1>
+            <p>Here is a video </p>
+    <video controls width="250">
+        <source src="path/to/your/overview.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+           <p>This video is an introductionto .....</p>
+    <!-- Paste the iframe code from YouTube here -->
+   
+</div>
+    <!-- Further content -->
+</div>
+            <!-- Further content -->
+        </div>
+    </div>
+</body>
+</html>
