@@ -11,6 +11,12 @@
     flex-wrap: nowrap; /* Ensure sidebar and main content are side by side */
     padding: 20px;
 }
+        .active-link {
+    background-color: #f0f0f0; /* Example background color */
+    color: #000; /* Example text color */
+    font-weight: bold;
+}
+
 
 .course-outline ul {
     list-style-type: disc; /* Ensures bullet points are shown */
@@ -84,7 +90,7 @@ ul li a:hover {
     </header>
 
     <div class="container"> <!-- Flex container for sidebar and main content -->
-        <div class="sidebar"> <!-- Navigation sidebar -->
+         <div class="sidebar" id="navigation-menu">
             <h2>Navigation</h2>
             <ul>
                 <li><a href="overview.html">Overview</a></li>
@@ -130,5 +136,17 @@ ul li a:hover {
         <li>Q-learning (basics)</li>
     </ul>
     </div>
+            <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const currentLocation = window.location.pathname;
+        const menuLinks = document.querySelectorAll('#navigation-menu a');
+
+        menuLinks.forEach(link => {
+            if (link.getAttribute('href') === currentLocation) {
+                link.classList.add('active-link');
+            }
+        });
+    });
+</script>
 </body>
 </html>
