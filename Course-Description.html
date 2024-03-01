@@ -18,6 +18,11 @@
             padding: 20px 0;
             text-align: center;
         }
+        .active-link {
+    background-color: #f0f0f0; /* Example background color */
+    color: #000; /* Example text color */
+    font-weight: bold;
+}
         .container {
             display: flex;
             flex-wrap: nowrap; /* Adjusted for a side-by-side layout */
@@ -111,5 +116,24 @@
   <!-- Further content -->
         </div>
     </div>
+              <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the current URL path without the domain
+        var path = window.location.pathname;
+        
+        // Select all navigation links
+        var links = document.querySelectorAll('.sidebar a');
+        
+        // Loop through each link
+        links.forEach(function(link) {
+            // Check if the link's href attribute matches the current path
+            if (link.getAttribute('href') === path) {
+                // Add the 'active-link' class to the matching link
+                link.classList.add('active-link');
+            }
+        });
+    });
+
+</script>
 </body>
 </html>
