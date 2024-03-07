@@ -1,69 +1,66 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentals of AI for Manufacturing</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #005a87;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #005a87;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .sidebar, #course-topics {
+        flex: 1;
+        padding: 20px;
+    }
+    .sidebar {
+        flex-basis: 20%; /* Adjust the width of the sidebar */
+        max-width: 250px; /* Maximum width of the sidebar */
+    }
+    #course-topics {
+        flex-basis: 75%; /* Adjust based on the sidebar width to fill the rest */
+    }
+    h1, h2, p, ul, ol {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    ul, ol {
+        list-style: none;
+        padding: 0;
+    }
+    .sidebar ul {
+        list-style-type: disc; /* Add bullet points */
+        padding-left: 20px; /* Proper alignment */
+    }
+    ul li a, ol li a {
+        text-decoration: none;
+        color: #005a87;
+        font-weight: bold;
+    }
+    ul li a:hover, ol li a:hover {
+        text-decoration: underline;
+    }
+    @media (max-width: 768px) {
         .container {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-        }
-        .sidebar, #course-topics {
-            flex: 1;
-            padding: 20px;
+            flex-direction: column;
         }
         .sidebar {
-            flex-basis: 20%; /* Adjust the width of the sidebar */
-            max-width: 250px; /* Maximum width of the sidebar */
+            flex-basis: auto;
+            max-width: none;
         }
         #course-topics {
-            flex-basis: 75%; /* Adjust based on the sidebar width to fill the rest */
+            flex-basis: auto;
         }
-        h1, h2, p, ul, ol {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        ul, ol {
-            list-style: none;
-            padding: 0;
-        }
-        ul li a, ol li a {
-            text-decoration: none;
-            color: #005a87;
-            font-weight: bold;
-        }
-        ul li a:hover, ol li a:hover {
-            text-decoration: underline;
-        }
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-            }
-            .sidebar {
-                flex-basis: auto;
-                max-width: none;
-            }
-            #course-topics {
-                flex-basis: auto;
-            }
-        }
-    </style>
-</head>
+    }
+</style>
 <body>
     <header id="header">
         <img src="logo.png" alt="Course Logo" height="100">
