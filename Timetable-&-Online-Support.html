@@ -1,1 +1,185 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals of AI for Manufacturing</title>
+    <style>
+        /* Your existing CSS styles */
+        .timetable-container {
+            margin-top: 20px;
+        }
+
+        .timetable-container h2 {
+            margin-bottom: 10px;
+        }
+
+        .timetable-container table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .timetable-container th, .timetable-container td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .timetable-container th {
+            background-color: #f2f2f2;
+        }
+
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header id="header" style="background-color: #005a87; color: white; padding: 20px 0; text-align: center;">
+    <img src="logo.png" alt="Course Logo" height="100">
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Fundamentals of AI for Manufacturing</h1>
+</header>
+
+<div class="container" style="display: flex; flex-wrap: nowrap; padding: 20px;">
+    <div class="sidebar" id="navigation-menu" style="flex: 0 1 200px; padding-right: 20px; margin-right: 20px;">
+        <!-- Your sidebar content here -->
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="Course-Description.html">Course Description</a></li>
+            <li><a href="Timetable-&-Online-Support.html" class="active-link">Timetable & Online Support</a></li>
+            <li><a href="Topics-&-Schedule.html">Topics & Schedule</a></li>
+            <li><a href="Requirements-fees-and-Waivers.html">Requirements, Fees, and Waivers</a></li>
+            <li><a href="FAQs.html">FAQs</a></li>
+            <li><a href="Team.html">Team</a></li>
+            <li><a href="Apply.html">Apply</a></li>
+            <!-- New Contact Us link -->
+            <li><a href="mailto:fundamentalsai.nmis@gmail.com">Contact Us</a></li>
+        </ul>
+        <div class="collaboration-section">
+            <h2>In collaboration with</h2>
+            <img src="nmis.png" alt="Collaborator's Logo" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+
+    <div class="main-content" style="flex: 1; padding-left: 40px;">
+        <div class="application-container">
+            <h2>Timetable & Online Support</h2>
+            <ul>
+                <li>
+                    <strong>Timetable:</strong>
+                    <p>The course runs from 13:30 pm to 16:00 pm effective Fri 12/04/2024 until Fri 28/06/2024.</p>
+                </li>
+                <li>
+                    <strong>Lectures:</strong>
+                    <p>Friday 13:30 to 16:00 pm usually a live online talk and/or in person.</p>
+                </li>
+                <li>
+                    <strong>Workshop tutorials:</strong>
+                    <p>A guided exercise, carried out individually or in groups with tutor support and open sessions, with tutors/lecturers on hand to support.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Workshop tutorials section ends here -->
+
+       <!-- Timetable Table -->
+<div class="timetable-container">
+    <h2>Timetable</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Week</th>
+                <th>Date</th>
+                <th>Lecture</th>
+                <th>Workshop/Tutorial</th>
+                <th>Teaching</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>12/04/2024</td>
+                <td>The Basic Idea of Artificial Neural Networks (ANN)</td>
+                <td>Implementing a simple ANN model in Python using Google Colab.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>19/04/2024</td>
+                <td>ANN Training – Data Requirements - Overtraining</td>
+                <td>Experimenting with different network architectures and observing performance changes on a manufacturing dataset.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>26/04/2024</td>
+                <td>Genetic Algorithms (GA) and Their Utilization in Training Engine</td>
+                <td>Demonstrating overtraining on an ANN model and implementing techniques to prevent it.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>03/05/2024</td>
+                <td>ANN Training – Fitting Engine</td>
+                <td>Building a CNN to identify defects in manufacturing components from images.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>10/05/2024</td>
+                <td>Convolutional ANN</td>
+                <td>Using GA to optimize an ANN model's parameters for a specific manufacturing problem.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>17/05/2024</td>
+                <td>Regression Problems</td>
+                <td>Practical session on model training adjustments and observing effects on convergence and accuracy.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>24/05/2024</td>
+                <td>Autoencoders</td>
+                <td>Building a CNN to identify defects in manufacturing components from images.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>31/05/2024</td>
+                <td>ANN for Working with Time Series</td>
+                <td>Developing an autoencoder for detecting anomalies in manufacturing data.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>07/06/2024</td>
+                <td>Recurrent ANN</td>
+                <td>Creating an ANN model for a time series forecasting task, such as predictive maintenance.</td>
+                <td>Olga Bylya</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>14/06/2024</td>
+                <td>Q-Learning (Basics)</td>
+                <td>Developing a simple Q-learning model to solve a manufacturing optimization problem.</td>
+                <td>Olga Bylya</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+       
+
+<footer>
+    <!-- Your footer content here -->
+</footer>
+
+</body>
+</html>
