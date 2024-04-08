@@ -113,7 +113,7 @@
         <!-- Include the detailed lecture outlines here, following the structured format provided -->
         <ol>
             <li>
-                <h3>The Basic Idea of Artificial Neural Networks (ANN)</h3>
+                <h3>1.The Basic Idea of Artificial Neural Networks (ANN)</h3>
                 <p><strong>1st Part: Theory</strong></p><br>
                 <ul>
                     <li>Introduction to ANN: Definition, historical background, and its significance in manufacturing.</li>
@@ -131,7 +131,159 @@
                 <li>Experimenting with different network architectures and observing performance changes on a manufacturing dataset.</li>
             </ul>
         </li>
-        <!-- Repeat for each topic with similar structure -->
+             <h3>2.ANN Training – Data Requirements - Overtraining</h3>
+                <p><strong>1st Part: Theory</strong></p><br>
+                <ul>
+                    <li>Importance of Data in ANN Training: Types of data used in training ANNs, data preprocessing.</li>
+                    </li>Overtraining: What it is, why it matters, and its impact on model performance.</li>
+            </ul>
+              <p><strong>2st Part:  Technical Overview</strong></p><br>
+            <ul>
+                <li>Techniques to Prevent Overtraining: Regularization, dropout, early stopping.</li>
+                <li>Data Requirements: Understanding data quality, quantity, and diversity for effective training.</li>
+            </ul>
+            <div>Workshop</div>
+            <ul>
+                <li>Demonstrating overtraining on an ANN model and implementing techniques to prevent it.</li>
+                
+            </ul>
+        </li>
+       <h3>3.Genetic Algorithms (GA) and Their Utilization in Training Engine</h3>
+<p><strong>1st Part: Theory</strong></p><br>
+<ul>
+    <li>Introduction to GA: Concept, biological inspiration, and its role in optimization.</li>
+    <li>Applications in Manufacturing: Examples of GA optimizing manufacturing processes.</li>
+</ul>
+<p><strong>2nd Part: Technical Overview</strong></p><br>
+<ul>
+    <li>How GA Works: Selection, crossover, mutation, and fitness evaluation.</li>
+    <li>GA in ANN Training: Enhancing model performance and parameter optimization.</li>
+</ul>
+<div>Workshop</div>
+<ul>
+    <li>Using GA to optimize an ANN model's parameters for a specific manufacturing problem.</li>
+</ul>
+
+<h3>4. ANN Training – Fitting Engine</h3>
+<p><strong>1st Part: Theory</strong></p><br>
+<ul>
+    <li>Fitting Engine in ANN: Understanding the process of training an ANN model.</li>
+    <li>Challenges in Training: Addressing issues like convergence and local minima.</li>
+</ul>
+<p><strong>2nd Part: Technical Overview</strong></p><br>
+<ul>
+    <li>Advanced Techniques: Backpropagation, gradient descent variations.</li>
+    <li>Tuning the Fitting Engine: Batch size, learning rate adjustments.</li>
+</ul>
+<div>Workshop</div>
+<ul>
+    <li>Practical session on model training adjustments and observing effects on convergence and accuracy.</li>
+</ul>
+        </li>
+            <h3>5. Convolutional ANN</h3>
+<p><strong>1st Part: Theory</strong></p><br>
+<ul>
+    <li>Convolutional Neural Networks (CNN): Introduction, architecture, and why they excel in image processing.</li>
+    <li>Manufacturing Applications: Quality control, defect detection using CNN.</li>
+</ul>
+<p><strong>2nd Part: Technical Overview</strong></p><br>
+<ul>
+    <li>CNN Layers: Convolutional layers, pooling layers, fully connected layers.</li>
+    <li>Key Parameters and Their Tuning: Filter sizes, strides, padding.</li>
+</ul>
+<div>Workshop</div>
+<ul>
+    <li>Building a CNN to identify defects in manufacturing components from images.</li>
+</ul>
+
+<h3>6. Regression Problems</h3>
+<p><strong>1st Part: Theory</strong></p><br>
+<ul>
+    <li>Regression in AI: Concept, types, and its necessity in predicting manufacturing outcomes.</li>
+    <li>Industrial Applications: Demand forecasting, quality prediction.</li>
+</ul>
+<p><strong>2nd Part: Technical Overview</strong></p><br>
+<ul>
+    <li>Regression Techniques: Linear regression, polynomial regression, and their application in ANN.</li>
+    <li>Performance Evaluation: Error metrics for regression analysis.</li>
+</ul>
+<div>Workshop</div>
+<ul>
+    <li>Implementing a regression model to forecast manufacturing demand or product quality.</li>
+</ul>
+
+<!-- Repeat the same structure for each topic -->
+
+<h3>7. Autoencoders</h3>
+<p><strong>1st Part: Theory</strong></p><br>
+<ul>
+    <li>Autoencoders Explained: Architecture, functioning, and types.</li>
+    <li>Use Cases in Manufacturing: Anomaly detection, dimensionality reduction for process optimization.</li>
+</ul>
+<p><strong>2nd Part: Technical Overview</strong></p><br>
+<ul>
+    <li>Inner Workings: Encoder, bottleneck, decoder, and loss function.</li>
+    <li>Tuning and Training: Key parameters, avoiding overfitting.</li>
+</ul>
+<div>Workshop</div>
+<ul>
+    <li>Developing an autoencoder for detecting anomalies in manufacturing data.</li>
+</ul>
+
+<!-- Repeat the same structure for each topic -->
+ <li>
+<h3>8.ANN for Working with Time Series</h3>
+<p><strong>1st Part: Theory</strong></p><br>
+<ul>
+    <li>Time Series Analysis with ANN: Importance, challenges, and potential in manufacturing.</li>
+    <li>Examples: Predictive maintenance, supply chain optimization.</li>
+</ul>
+<p><strong>2nd Part: Technical Overview</strong></p><br>
+<ul>
+    <li>Designing ANNs for Time Series: Input features, temporal dependencies.</li>
+    <li>Evaluation and Optimization: Techniques to improve time series forecasting models.</li>
+</ul>
+<div>Workshop</div>
+<ul>
+    <li>Creating an ANN model for a time series forecasting task, such as predictive maintenance.</li>
+</ul>
+
+<!-- Repeat the same structure for each topic -->
+ <li>
+<h3>9.Recurrent ANN</h3>
+<p><strong>1st Part: Theory</strong></p><br>
+<ul>
+    <li>Recurrent Neural Networks (RNN): Concept, unique features, and advantages over traditional ANN in processing sequences.</li>
+    <li>Applications: Process control, sequential quality assessment.</li>
+</ul>
+<p><strong>2nd Part: Technical Overview</strong></p><br>
+<ul>
+    <li>RNN Architecture: Understanding loops in RNN, long short-term memory (LSTM), and gated recurrent units (GRU).</li>
+    <li>Handling Sequential Data: Importance of sequence order, memory, and prediction.</li>
+</ul>
+<div>Workshop</div>
+<ul>
+    <li>Implementing an RNN for a manufacturing sequence prediction problem, focusing on process optimization.</li>
+</ul>
+
+<!-- Repeat the same structure for each topic -->
+ <li>
+<h3>10.Q-Learning (Basics)</h3>
+<p><strong>1st Part: Theory</strong></p><br>
+<ul>
+    <li>Introduction to Q-Learning: Foundations of reinforcement learning (RL), where Q-learning fits.</li>
+    <li>Manufacturing Insights: Applications of Q-learning in optimizing operations and decision-making processes.</li>
+</ul>
+<p><strong>2nd Part: Technical Overview</strong></p><br>
+<ul>
+    <li>Q-Learning Mechanism: Understanding the Q-table, state-action-reward, and learning rate.</li>
+    <li>Implementing Q-Learning: Challenges and strategies for convergence.</li>
+</ul>
+<div>Workshop</div>
+<ul>
+    <li>Developing a simple Q-learning model to solve a manufacturing optimization problem.</li>
+</ul>
+
     </ol>
 </div>
 
