@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals of AI for Manufacturing</title>
+    <style>
+        /* Your existing CSS styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #005a87;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 0 1 200px;
+            padding-right: 20px;
+            margin-right: 20px;
+        }
+        .main-content {
+            flex: 1;
+            padding-left: 40px;
+        }
+        h1, h2, p, ul {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #005a87;
+            font-weight: bold;
+            display: block;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar, .main-content {
+                flex-basis: auto;
+                padding-right: 0;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img src="logo.png" alt="Course Logo" height="100">
+        <h1>Fundamentals of AI for Manufacturing</h1>
+    </header>
 
+    <div class="container">
+        <div class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="Course-Description.html">Course Description</a></li>
+                <li><a href="Timetable-&-Online-Support.html">Timetable & Online Support</a></li>
+                <li><a href="Topics-&-Schedule.html">Topics & Schedule</a></li>
+                <li><a href="Requirements-fees-and-Waivers.html">Requirements, Fees, and Waivers</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="Team.html">Team</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+                <li><a href="mailto:fundamentalsai.nmis@gmail.com">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Lecture 1</h1>
+            <p>Here is a recording for the first lecture:</p>
+            <audio controls>
+                <source src="path/to/your/recording.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+            <p>This recording is an introduction to...</p>
+            <p>Download the Python files used in the lecture:</p>
+            <ul>
+                <li><a href="path/to/your/lecture1_notebook.ipynb" download>Lecture 1 Notebook</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
