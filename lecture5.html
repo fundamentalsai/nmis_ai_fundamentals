@@ -1,1 +1,117 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals of AI for Manufacturing</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #005a87;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 0 1 200px;
+            padding-right: 20px;
+            margin-right: 20px;
+        }
+        .main-content {
+            flex: 1;
+            padding-left: 40px;
+        }
+        h1, h2, h3, p, ul {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #005a87;
+            font-weight: bold;
+            display: block;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        .chapter {
+            margin-top: 20px;
+        }
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar, .main-content {
+                flex-basis: auto;
+                padding-right: 0;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img src="logo.png" alt="Course Logo" height="100">
+        <h1>Fundamentals of AI for Manufacturing</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="Course-Description.html">Course Description</a></li>
+                <li><a href="Timetable-&-Online-Support.html">Timetable & Online Support</a></li>
+                <li><a href="Topics-&-Schedule.html">Topics & Schedule</a></li>
+                <li><a href="Requirements-fees-and-Waivers.html">Requirements, Fees, and Waivers</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="Team.html">Team</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+                <li><a href="mailto:fundamentalsai.nmis@gmail.com">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Lecture 5</h1>
+            <p>Here is the link to the video for the fifth lecture:</p>
+            <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week5/Lecture_and_Workshop_AI_Week5.mp4?csf=1&web=1&e=o3CdC2">Watch Lecture 5 Video</a>
+  
+            <h2>Chapters</h2>
+            <div class="chapter">
+                <h3>Chapter 1: Exploring Optimization Strategies</h3>
+                <p>This chapter delves into the intricacies of optimization strategies, particularly focusing on the process of searching for global minima in predictive models. It outlines the logical approach of iteratively refining predictions to minimize loss functions, drawing parallels to variational principles in analytical mechanics. However, it also highlights the challenge of local minima and the risk of getting stuck in suboptimal solutions. Despite its logical foundation, the chapter emphasizes the need to carefully consider starting points and explores alternative methods such as genetic algorithms.</p>
+                <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week5/chapters/Lecture5part1.mp4?csf=1&web=1&e=hU0sqM">Watch Chapter 1</a>
+            </div>
+            <div class="chapter">
+                <h3>Chapter 2: Evolutionary Strategies in Optimization: Genetic algorithms</h3>
+                <p>This chapter delves into the concept of mutation within evolutionary strategies for optimization. Using the analogy of shaking a table to displace a ball from a local minimum, the discussion highlights how mutation introduces randomness into the population, preventing it from getting stuck in suboptimal solutions. The process involves evaluating fitness, selection, crossbreeding, and mutation iteratively until the target is reached or a satisfactory solution is found. Throughout the discourse, emphasis is placed on the importance of mutation in enabling adaptation to different conditions, drawing parallels between biological evolution and optimization processes. Through mutation, individuals can gradually adjust to new environments, ensuring continued progress towards optimal solutions despite uncertainties.</p>
+                <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week5/chapters/lecture5part2.mp4?csf=1&web=1&e=M6jfah">Watch Chapter 2</a>
+            </div>
+            <div class="chapter">
+                <h3>Chapter 3: Selection in Genetic Algorithms</h3>
+                <p>This chapter explores the process of selection within genetic algorithms, likening it to choosing puppies from a litter. The discussion emphasizes the importance of selecting the most promising candidates from a population for further breeding. Analogies to picking puppies underscore the randomness inherent in selection, ensuring a diverse set of individuals for breeding. The chapter also delves into the considerations of sample size, highlighting the balance between population size and the representation of rare cases. Through these discussions, the efficiency and adaptability of genetic algorithms in solving complex optimization problems are underscored, offering insights into the intricate mechanisms of evolutionary computation.</p>
+                <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week5/chapters/lecture5part3.mp4?csf=1&web=1&e=buRIqd">Watch Chapter 3</a>
+            </div>
+            <div class="chapter">
+                <h3>Chapter 4: Bridging Theory and Practice</h3>
+                <p>This chapter discusses an experiment where robots were trained to locate a dot on a wall using neural networks. While successful in simulations, the neural networks often struggled in real-world scenarios due to discrepancies between simulation and reality. To address this, strategies such as introducing white noise to prevent simulation exploitation were explored. Furthermore, the significance of leveraging domain knowledge for algorithm optimization was emphasized, with a hint towards future discussions on this topic. The chapter concludes with reflections on progress and anticipation for upcoming sessions, underlining the collaborative learning process.</p>
+                <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week5/chapters/lecture5part4.mp4?csf=1&web=1&e=iz5ddP">Watch Chapter 4</a>
+            </div>
+           
+          
