@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals of AI for Manufacturing</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #005a87;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 0 1 200px;
+            padding-right: 20px;
+            margin-right: 20px;
+        }
+        .main-content {
+            flex: 1;
+            padding-left: 40px;
+        }
+        h1, h2, h3, p, ul {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #005a87;
+            font-weight: bold;
+            display: block;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        .chapter {
+            margin-top: 20px;
+        }
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar, .main-content {
+                flex-basis: auto;
+                padding-right: 0;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img src="logo.png" alt="Course Logo" height="100">
+        <h1>Fundamentals of AI for Manufacturing</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="Course-Description.html">Course Description</a></li>
+                <li><a href="Timetable-&-Online-Support.html">Timetable & Online Support</a></li>
+                <li><a href="Topics-&-Schedule.html">Topics & Schedule</a></li>
+                <li><a href="Requirements-fees-and-Waivers.html">Requirements, Fees, and Waivers</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="Team.html">Team</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+                <li><a href="mailto:fundamentalsai.nmis@gmail.com">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Lecture 9</h1>
+            <p>Here is the link to the video for the ninth lecture:</p>
+            <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week9/Week9_AI_Lecture9.mp4?csf=1&web=1&e=HbMe9e">Watch Lecture 9 Video</a>
+      
+  
+            <h2>Chapters</h2>
+            <div class="chapter">
+                <h3>Chapter 1: Introduction to Time Series Problems</h3>
+                <p>In this session, the focus is on understanding and predicting time series data. The key distinction from previous discussions is that here, the values are strongly related to each other, and the aim is to predict the next value (n + 1) in the series. The session highlights the unique features of time series problems and emphasizes the importance of parameterization and handling neighboring data to make accurate predictions. It also addresses the common challenges encountered in time series analysis, such as dealing with the sequential nature of the data.</p>
+              <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week9/Chapters/Lecture9part1.mp4?csf=1&web=1&e=dwgq8U">Watch Chapter 1</a>
+            </div>
+            <div class="chapter">
+                <h3>Chapter 2: Understanding Epochs and Batches in Model Training </h3>
+                <p>This segment explains epochs and batches in model training. An epoch represents one full pass through the training dataset, during which the model's weights are adjusted. The number of epochs denotes how many times this cycle is repeated, e.g., 100 epochs mean the weights are updated 100 times. Batches refer to dividing the training data into smaller subsets. If the batch size is set to 1, the entire dataset is processed at once to calculate errors and adjust weights. With multiple batches, the dataset is split into smaller parts, and errors are averaged for each batch. This process of splitting and averaging is done randomly and repeated for the specified number of epochs.</p>
+                <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week9/Chapters/Lecture9part2.mp4?csf=1&web=1&e=dNnqI5">Watch Chapter 2</a>
+            </div>
+            <div class="chapter">
+                <h3>Chapter 3: Importance of Batch Selection and Normalization in Backpropagation</h3>
+                <p>This segment underscores the significance of batch selection and normalization in neural network backpropagation. It highlights how incorrect batch choices can trap models in local minima, while strategic batch selections can aid in overcoming these obstacles. Additionally, it stresses the importance of proper data normalization, whether through standard or min-max methods, to ensure model convergence. The distinction between test and validation data is also emphasized for accurate model evaluation and training.</p>
+                <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week9/Chapters/Lecture9part3.mp4?csf=1&web=1&e=ztpAla">Watch Chapter 3</a>
+            </div>
+            <div class="chapter">
+                <h3>Chapter 4: Fitting Process and Weight Adjustments in Neural Networks</h3>
+                <p>The segment begins by discussing the fitting process in a neural network, focusing on how inputs are multiplied by weights assigned to each neuron to predict outputs. It explains how errors are calculated and adjustments are made to weights through derivatives to optimize the model's performance.</p>
+                <a href="https://strath.sharepoint.com/:v:/r/sites/NMIS_NMIS_AIFundamentalsforManufacturingApr2024cohort/Shared%20Documents/General/Class%20Materials/Week9/Chapters/lecture9part4.mp4?csf=1&web=1&e=u5lJaj">Watch Chapter 4</a>
+            </div>
+       
